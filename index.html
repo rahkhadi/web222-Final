@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <script src="data.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <h1>Rock Paper Scissors Game</h1>
+    <p>Welcome to the Rock Paper Scissors game website! Here, you can learn about the history and rules of the game, read tips and strategies for winning, and even see what others have to say about their experience playing the game.</p>
+    <b><p> Check out reviews from players just like you!</p></b>
+    <a href="reviews.html"><button type="submit">Reviews</button></a>
+    <img src="rps.jpg" alt="Rock Paper Scissors">
+  </header>
+  <main>
+    <section>
+      <div class="hero-image">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ND4fd6yScBM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="hero-text">
+        <h2>Levels of rock paper scissors</h2>
+        <p>Rock Paper Scissors is a simple game that is enjoyed by people of all ages. The game is based on the idea of two players making a hand gesture at the same time and determining the winner based on the gestures. While the basic game involves just three hand gestures - rock, paper, and scissors - there are different variations of the game that involve more hand gestures and complex rules.</p>
+    </div>
+      <h2>Join Our Newsletter</h2>
+      <p>Enter your email address below to join our newsletter and stay up-to-date with the latest news and updates from our site:</p>
+      <form action="https://httpbin.org/post" method="POST" onsubmit="return validateEmail()">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <input type="hidden" id="name" name="name" value="Your Name">
+        <button type="submit">Join</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Rock Paper Scissors Game</p>
+  </footer>
+</body>
+</html>
